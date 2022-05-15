@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div > #principal {
+    padding: 50px;
+    background-color: red;
+    width: 15%;
+    display: none;
+}
+div:hover > #principal {
+    display: block;
+}

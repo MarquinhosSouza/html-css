@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #90FCF9, #63B4D1, #7699D4);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+}
+h1 {
+    color: #480355;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+p {
+    text-align: justify;
+}
+h2{
+    color: #480355;
+}

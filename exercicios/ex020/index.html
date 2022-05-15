@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .one {
+            padding: 30px;
+            background-color: gray;
+            width: 10%;
+            height: 100px;
+            margin-bottom: 2px;
+        }
+        .one:hover {
+            background-color: yellow;
+        }
+        .yt::before {
+            content: "↪️ ";
+        }
+        .yt::after {
+            content: " ↩️";
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando :hover</h1>
+    <p>Passe o <strong>mause</strong> abaixo.</p>
+    <div>
+        Passe o mause aqui
+        <div id="principal">SURPRESAAA!!!!</div>
+    </div>
+    <hr>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    </main>
+    <ul>
+        <li><a href="" class="yt">Youtube</a></li>
+        <li><a href="">Twitch</a></li>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Google</a></li>
+    </ul>
+
+
+
+
+</body>
+</html>
